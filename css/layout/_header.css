@@ -36,10 +36,13 @@ header a:hover {
 
 #navbar li::before {
   content: attr(data-before);
+
   font-size: 60px;
   font-weight: 700;
+
   color: #292929;
   line-height: 1;
+
   position: absolute;
   z-index: -1;
 }
@@ -66,7 +69,9 @@ header a:hover {
 .nav-footer {
   height: 15vh;
   padding-left: 40px;
+
   border-top: 1px solid #3e3e3e;
+
   display: flex;
   align-items: center;
   position: relative;
@@ -75,15 +80,17 @@ header a:hover {
 .nav-footer::after {
   content: url(../../img/arrow-right.svg);
   position: absolute;
+
   bottom: 10px;
   right: 10px;
 }
 
 .inovar-content {
-  height: 60px;
   display: flex;
   align-items: center;
   position: relative;
+
+  height: 60px;
 }
 
 .inovar-content::before {

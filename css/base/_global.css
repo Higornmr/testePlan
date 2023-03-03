@@ -13,8 +13,12 @@ body {
   background-color: #1e1e1e;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
-  font-size: var(--fs13);
+  font-size: 0.81rem;
   line-height: 1.8;
 }
 

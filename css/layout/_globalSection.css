@@ -19,6 +19,8 @@ section .third-title {
   margin-bottom: 20px;
 }
 
+/* Responsividade */
+
 @media screen and (min-width: 900px) {
   #main {
     padding-left: 235px;
