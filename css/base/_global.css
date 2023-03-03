@@ -12,3 +12,20 @@ body {
   height: 100%;
   background-color: #1e1e1e;
 }
+
+p {
+  font-size: var(--fs13);
+  line-height: 1.8;
+}
+
+a {
+  transition: 0.2s;
+}
+
+b {
+  font-weight: 700;
+}
+
+label {
+  font-size: 0.93rem;
+}
