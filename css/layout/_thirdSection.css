@@ -1,0 +1,136 @@
+.input {
+  position: relative;
+  margin-top: 5px;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form-two-cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input::after {
+  content: "";
+  position: absolute;
+
+  border-bottom: 1px solid #3e3e3e;
+  background-color: #1e1e1e;
+
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+
+  transform: rotate(45deg);
+}
+
+.input input,
+.input textarea {
+  width: calc(100% - 12px);
+
+  border: 1px solid #3e3e3e;
+  color: #fff;
+
+  background-color: transparent;
+  box-shadow: none;
+
+  padding: 10px 5px;
+
+  outline: none;
+}
+
+.input textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.input input:focus,
+.input textarea:focus {
+  background-color: #292929;
+}
+
+.form-two-cols .input-container {
+  width: calc(50% - 10px);
+}
+
+#contato form {
+  margin-top: 20px;
+}
+
+#contato .g-recaptcha {
+  margin: 25px 0 20px;
+}
+
+#contato .features-list {
+  margin: -40px -10px;
+}
+
+#contato .features-list > li {
+  width: calc(33.33% - 20px);
+  max-width: 220px;
+  margin: 40px 10px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+#contato .features-list .contact-title {
+  display: block;
+  font-size: 1.25rem;
+  color: #939598;
+  margin-bottom: 10px;
+}
+
+#contato .features-list .cover {
+  max-width: 110px;
+  margin-bottom: 10px;
+}
+
+#contato .features-list .read-more,
+#contato .social-media {
+  position: absolute;
+  left: 0;
+}
+
+#contato .features-list .read-more {
+  top: calc(100% - 25px);
+}
+
+#contato .social-media {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  top: calc(100% - 20px);
+  width: 100%;
+  max-width: 175px;
+}
+
+#contato .social-media > li {
+  width: calc(33.33% - 5px);
+  min-width: 20px;
+  max-width: 44px;
+}
+
+#contato .social-media img {
+  width: 100%;
+  transition: 0.2s;
+}
+
+#contato .social-media a:hover img {
+  transform: scale(1.1);
+}
+
+.pin-icon::before {
+  content: url(../../img/local.webp);
+  padding-right: 3px;
+}
+
+.bar-before::before {
+  content: "/";
+}

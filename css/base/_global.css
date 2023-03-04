@@ -34,3 +34,17 @@ b {
 label {
   font-size: 0.93rem;
 }
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 900px) {
+  #main {
+    padding-left: 235px;
+  }
+
+  section {
+    min-height: 100vh;
+  }
+}
