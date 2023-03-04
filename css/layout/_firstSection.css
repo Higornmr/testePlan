@@ -34,13 +34,6 @@
   flex-direction: column;
 }
 
-.flex-cols-wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-
 .flex-cols-wrap .cover img {
   width: 100%;
   max-height: 150px;

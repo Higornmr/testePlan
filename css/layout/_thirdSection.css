@@ -33,7 +33,7 @@
 
 .input input,
 .input textarea {
-  width: calc(100% - 12px);
+  width: 100%;
 
   border: 1px solid #3e3e3e;
   color: #fff;
@@ -60,19 +60,19 @@
   width: calc(50% - 10px);
 }
 
-#contato form {
+#third-section form {
   margin-top: 20px;
 }
 
-#contato .g-recaptcha {
+#third-section .g-recaptcha {
   margin: 25px 0 20px;
 }
 
-#contato .features-list {
+#third-section .features-list {
   margin: -40px -10px;
 }
 
-#contato .features-list > li {
+#third-section .features-list > li {
   width: calc(33.33% - 20px);
   max-width: 220px;
   margin: 40px 10px;
@@ -80,29 +80,29 @@
   position: relative;
 }
 
-#contato .features-list .contact-title {
+#third-section .features-list .contact-title {
   display: block;
   font-size: 1.25rem;
   color: #939598;
   margin-bottom: 10px;
 }
 
-#contato .features-list .cover {
+#third-section .features-list .cover {
   max-width: 110px;
   margin-bottom: 10px;
 }
 
-#contato .features-list .read-more,
-#contato .social-media {
+#third-section .features-list .read-more,
+#third-section .social-media {
   position: absolute;
   left: 0;
 }
 
-#contato .features-list .read-more {
+#third-section .features-list .read-more {
   top: calc(100% - 25px);
 }
 
-#contato .social-media {
+.social-media {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -111,18 +111,18 @@
   max-width: 175px;
 }
 
-#contato .social-media > li {
+.social-media > li {
   width: calc(33.33% - 5px);
   min-width: 20px;
   max-width: 44px;
 }
 
-#contato .social-media img {
+.social-media img {
   width: 100%;
   transition: 0.2s;
 }
 
-#contato .social-media a:hover img {
+.social-media a:hover img {
   transform: scale(1.1);
 }
 
@@ -133,4 +133,11 @@
 
 .bar-before::before {
   content: "/";
+}
+
+.flex-cols-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
