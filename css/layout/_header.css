@@ -154,10 +154,11 @@ header a:hover {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    width: calc(100% - 10%);
+    width: 100%;
     height: calc(85px - 20px);
-    padding: 20px 5% 0 5%;
+    padding: 20px 15% 0 5%;
     z-index: 2;
 
     border-bottom: 1px solid #3e3e3e;
@@ -179,8 +180,8 @@ header a:hover {
   }
 
   #navbar {
-    top: 85px;
-    right: calc(-1 * 235px);
+    top: 65px;
+    right: 100%;
     width: 235px;
 
     background-color: inherit;
@@ -218,6 +219,8 @@ header a:hover {
   #hamburger {
     width: 45px;
     height: 45px;
+
+    margin-bottom: 23px;
 
     border-color: transparent;
     background-color: #939598;
