@@ -1,7 +1,7 @@
 const header = document.getElementById("header");
 const menu = document.getElementById("navbar");
 const hamburger = document.getElementById("hamburger");
-const carousel = document.querySelectorAll(".flex-cols-wrap");
+const carousel = document.querySelectorAll(".flex-cols");
 
 hamburger.addEventListener("click", () => {
   header.classList.toggle("menu-active");

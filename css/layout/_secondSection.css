@@ -98,7 +98,7 @@
   content: "/";
 }
 
-.flex-cols-wrap {
+.flex-cols {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -106,7 +106,7 @@
   align-items: stretch;
 }
 
-.flex-cols-wrap .cover img {
+.flex-cols .cover img {
   width: 100%;
   height: 150px;
 }
