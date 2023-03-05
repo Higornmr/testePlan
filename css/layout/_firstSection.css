@@ -25,10 +25,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .two-cols > * {
-  width: 46%;
   display: flex;
   justify-content: center;
   flex-direction: column;
